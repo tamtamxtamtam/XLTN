@@ -14,7 +14,7 @@
 ## Các công nghệ sử dụng
 
  - **Ngôn ngữ:** Python
- - **Web:** Node.js
+ - **Web:** Node.js, Bootstrap
  - **CSDL:** MySQL
  - **Nguồn tham khảo:** 
     - Tài liệu lý thuyết:  [willdrevo/Audio Fingerprint Identifying](https://willdrevo.com/fingerprinting-and-audio-recognition-with-python/)
