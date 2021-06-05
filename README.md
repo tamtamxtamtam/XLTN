@@ -1,7 +1,7 @@
 # MIKUFU
 **Môn học:** Xử lý tiếng nói
 
-**Dự án**: Mikufu - Tìm kiếm nhạc
+**Dự án**: Mikufu - Tìm kiếm tên bài hát
 
 **Thành viên:**
  1. 18021113 - Nguyễn Thị Minh Tâm
