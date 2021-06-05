@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" class="full-height">
+    <!-- Required meta tags always come first -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>MiKuFu</title>
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="/css/mdb.min.css" rel="stylesheet">
+    <link href="/css/index.css">
+</head>
+
+<body class="frozen-dreams-gradient">
+
+<!--Main Navigation-->
+<header>
+    <!-- Intro Section -->
+    <div class="view jarallax" data-jarallax='{"speed": 0.2}' style="background-image: url('https://i.imgur.com/edxSJs3.jpg'); background-repeat: no-repeat; background-size: cover; background-position: center center;">
+        <div class="mask rgba-purple-slight">
+            <div class="container h-100 d-flex justify-content-center align-items-center">
+                <div class="row pt-5 mt-3">
+                    <div class="col-md-12 wow fadeIn mb-3">
+                        <div class="text-center">
+                            <h1 class="display-4 font-weight-bold mb-5 wow fadeInUp">Bạn muốn tìm tên bài hát qua giai điệu?</h1>
+                            </li>
+                            <h4 class="mb-5 wow fadeInUp" data-wow-delay="0.2s">Thử tìm kiếm</h4>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</header>
+<!--Main Navigation-->
+
+<!--Main Layout-->
+<main>
+
+    <div class="container" id="container-body">
+        <!--Section: Testimonials v.3-->
+        <section class="section team-section text-center pb-3 wow fadeIn" data-wow-delay="0.3s" id="matching">
+
+            <!--Section heading-->
+            <h1 class="font-weight-bold text-center h1 my-5">Bắt đầu ghi âm</h1>
+            <div class="preloader-wrapper big active">
+                <div class="spinner-layer spinner-yellow-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+            </div>
+            <!--Grid row-->
+            <div class="container">
+                <a type="button" class="btn-floating btn-lg btn-info active" aria-pressed="true" id="record"><i class="fas fa-microphone-alt"></i></a>
+                <a type="button" class="btn-floating btn-lg btn-default active" aria-pressed="true" disabled="true" id="stop"><i class="fas fa-stop"></i></a>
+            </div>
+            <!--Grid row-->
+            <p>
+                <audio id=recordedAudio></audio>
+            </p>
+        </section>
+        <!--Section: Testimonials v.3-->
+        <h1 class="font-weight-bold text-center h1 my-5" id="song_name"></h1>
+    </div>
+
+</main>
+<!--Main Layout-->
+
+<footer>
+
+</footer>
+<!--  SCRIPTS  -->
+<!-- JQuery -->
+<script type="text/javascript" src="/js/jquery-3.4.0.min.js"></script>
+<!-- Bootstrap tooltips -->
+<script type="text/javascript" src="/js/popper.min.js"></script>
+<!-- Bootstrap core JavaScript -->
+<script type="text/javascript" src="/js/bootstrap.min.js"></script>
+<!-- MDB core JavaScript -->
+<script type="text/javascript" src="/js/mdb.min.js"></script>
+<!-- Voice record JS-->
+<script type="text/javascript" src="/js/index.js"></script>
+<script>
+  new WOW().init();
+
+</script>
+</body>
+
+</html>
