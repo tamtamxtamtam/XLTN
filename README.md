@@ -26,7 +26,7 @@
 - Trích xuất Spectrogram của bản nhạc.
 -  Lấy ra những điểm có giá trị cao hơn hẳn so với những điểm xung quanh làm đặc trưng của bản nhạc (peaks).
 - Mã hóa peaks và khoảng thời gian giữa mỗi peak với nhau, lưu đoạn mã hóa vào CSDL.
- 3. Nhận diện bản nhạc từ đoạn ghi âm:
+ 2. Nhận diện bản nhạc từ đoạn ghi âm:
 - Sau khi nhận input vào là bản ghi âm, đoạn ghi âm được xử lý giống phía trên và đưa vào so sánh với dữ liệu đã được lưu trong CSDL.
 - Đoạn mã đã được xử lý sẽ được tính toán sự khác biệt và cho ra đoạn mã có độ tương tự cao nhất trong dữ liệu đã được lưu.
 
